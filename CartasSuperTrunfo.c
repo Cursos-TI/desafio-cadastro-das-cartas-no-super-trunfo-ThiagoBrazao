@@ -114,9 +114,9 @@ int main() {
     printf("Carta 1 - Macapá(AP): %d\n", populacao1);
     printf("Carta 1 - Belém(PA): %d\n", populacao2);
     if(populacao1 > populacao2) {
-        printf("Resultado: Carta 1 (Macapá) venceu!\n");
+        printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
     } else {
-        printf("Resultado: Carta 2 (Belém) venceu!\n");
+        printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
     }
 
     printf("\n");
